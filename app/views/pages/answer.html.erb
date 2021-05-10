@@ -1,0 +1,14 @@
+<h1>STUPID COACHING</h1>
+<p class="asking">ask your questions</p>
+
+<div class="question_container">
+  <p><%= @question %></p>
+  <p id = "you"> -You</p>
+
+</div>
+<div class="answer_container">
+  <p><%= @answer %></p>
+  <p id = "coach"> -Your coach</p>
+</div>
+
+<%= link_to "Ask your coach a new question", ask_path %>
